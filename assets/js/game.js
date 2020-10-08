@@ -22,6 +22,7 @@ var fight = function(enemy) {
     }
     while (playerInfo.health > 0 && enemy.health > 0) {
         if (isPlayerTurn) {
+            
         if (fightOrSkip ()) {
      break;
  }
